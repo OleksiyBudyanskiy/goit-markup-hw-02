@@ -1,0 +1,51 @@
+.header{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list,
+lint {
+    list-style: none;
+}
+
+/ = logo header= /
+.logo-link {
+    color: vor(--primary-brand);
+    front-family: 'Raleway', sans-sherif;
+    front-style: normal;
+    front-weight: 800;
+    front-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: var(--primery-brand);
+}
+
+.studio {
+    color: var(--dark);
+    ront-family: 'Raleway', sans-sherif;
+    front-style: normal;
+    front-weight: 800;
+    front-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
+}
+/*adress*/
+.adress {
+    front-style: normal;
+}
+
+.nav-link {
+    color: vor(--dark);
+    front-style: normal;
+    front-weight: 500;
+    front-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
