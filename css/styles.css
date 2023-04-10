@@ -1,9 +1,10 @@
 :root {
-    --text: 'Roboto', sans-serif;
     --text-color: #434455;
     --dark-color: #2e2f42;
     --primary-barnd-color: #4d5ae5;
     --primary-dark-color: #404BBF;
+    --cloud: #f4f4fd;
+    --back-color: #ffffff;
 }
 
 .list {
@@ -14,29 +15,28 @@
     text-decoration: none;
 }
 body {
-    font-family: var(--text)
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
     font-style: normal;
   
-    color: var(--brand-color);
-    
+       
     
 }    
 / = logo header= /
 .logo {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 0.86;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--primary-barnd-color);
 }
 .span-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 0.86;
@@ -44,14 +44,13 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--primary-barnd-color);
     
 }
 .menu-link {
     color: var(--text-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16p;
+    font-weight: 500;
+    font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
@@ -59,11 +58,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
     color: var(--primary-barnd-color);
-    background: var(--primary-dark-color);
+    background-color: var(--primary-dark-color);
 }
 .contacts {
     color: var(--text-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -74,54 +72,60 @@ body {
     color: var(--primary-dark-color);
 }
 .hero-name {
-   color: #434445; ffffff
-   font-style: normal;
+   color: var(--back-color); 
    font-weight: 600;
    font-size: 56px;
    letter-spacing: 0.02em;
    text-align: center;
-   line-height: 0.93;
+   line-height: 1.07;
 }   
 .search-btn {
-   
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: .67;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: var(--primary-barnd-color);
+    color: var(--back-color);
+    background-color: var(--primary-barnd-color);
+    cursor: pointer;
 }    
 .search-btn:hover,
 .search-btn:focus {
     background: var(--primary-dark-color);
 }  
-.policy-item {
-    
-    font-style: normal;
+.policy-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 0.83;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
+.policy-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
  .policy-text {
-   
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 0.83;
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
- .work-team {
-    
-    font-style: normal;
+.work-team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+.work-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.9;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -129,7 +133,6 @@ body {
  }
 .team-name {
     
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 0.83;
@@ -138,8 +141,6 @@ body {
     color: var(--dark-color);
 }
 .team-text {
-    font-family: var(--text);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 0.67;
@@ -147,22 +148,24 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-
+.our-team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
 .footer-text {
-    font-family: var(--text);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 0.67;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--cloud);
 }
 .gallery-search-btn {
-    font-family: var(--text);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: .67;
+    line-height: 0.67;
     display: flex;
     align-items: center;
     text-align: center;
@@ -171,24 +174,20 @@ body {
 }
 .gallery-search-btn:hover,
 .gallery-search-btn:focus {
-  color: #FFFFFF; 
-  background: #404BBF;
+  color: var(--back-color); 
+  background-color: var(--primary-dark-color);
 }
 .card-content {
-    font-family: var(--text);
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 0.83;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark-color);
 }
 .card-text {
-    font-family: var(--text);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 0.67;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
