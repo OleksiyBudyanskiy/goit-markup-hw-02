@@ -33,7 +33,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-barnd-color);
+    color: var(--dark-color);
 }
 .span-logo {
     font-family: 'Raleway';
@@ -57,21 +57,26 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-    color: var(--primary-barnd-color);
+    color: var(--primary-dark-color);
     background-color: var(--primary-dark-color);
 }
 .contacts {
-    color: var(--text-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    color: var(--text-color);
+
 }
 .contacts:hover,
 .contacts:focus {
     color: var(--primary-dark-color);
 }
-.hero-name {
+.sections {
+    background-color: var(--dark-color);
+}
+.section-name {
    color: var(--back-color); 
    font-weight: 600;
    font-size: 56px;
