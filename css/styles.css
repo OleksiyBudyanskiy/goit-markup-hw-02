@@ -24,7 +24,7 @@ body {
     
 }    
 
-.nav-logo {
+.navs-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -52,7 +52,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    color: var(--text-color);
+    color: var(--dark-color);
 
 }
 
@@ -129,57 +129,21 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-.work-team-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--dark-color);
-}
-.work-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--dark-color);
- }
-.team-name {
-    
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 0.83;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--dark-color);
-}
-.team-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 0.67;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-}
-
-}
-.sections-name {
+..sections-our-team {
     background-color: var(--cloud);
 }
-.team-name {
+.our-team {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--dark-color);
+    color: var(--dark-color)
 }
 .our-names {
     background-color: var(--back-color);
-
 }
-.our-team {
+.our-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -187,6 +151,11 @@ body {
     text-align: center;
     color: var(--dark-color);
 }  
+.our-text {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 .futter {
     background-color: var(--dark-color);
@@ -200,8 +169,11 @@ body {
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--dark-color);
+        color: var(--primary-barnd-color);
 }
+.span-logo {
+    color: var(--cloud);
+}         
 .footer-text {
     font-weight: 400;
     font-size: 16px;
