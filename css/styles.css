@@ -77,7 +77,8 @@ body {
 .sections {
     background-color: var(--dark-color);
 }
-.policy-list {
+  /=======Hero page =======/
+.hero-name {
    font-size: 56px;
    letter-spacing: 0.02em;
    text-align: center;
@@ -100,6 +101,14 @@ body {
 .search-btn:focus {
     background: var(--primary-dark-color);
 }  
+ /=============/Hero page ====/
+.policy-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
 .policy-item {
     font-weight: 500;
     font-size: 20px;
@@ -107,7 +116,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
-
 .policy-text {
     font-weight: 400;
     font-size: 16px;
