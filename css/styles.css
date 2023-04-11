@@ -188,12 +188,14 @@ body {
 .gallery-search-btn {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.67;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--primary-brand-color);
+    background-color: var(--cloud);
+    cursor: pointer;
 }
 .gallery-search-btn:hover,
 .gallery-search-btn:focus {
@@ -214,11 +216,31 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-/*
-    color: vor(--dark);
-    front-style: normal;
-    front-weight: 500;
-    front-size: 16px;
+.footer {
+    background-color: var(--dark-color);
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+}
+
+.span-logo {
+    color: var(--cloud);
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.67;
     letter-spacing: 0.02em;
-    line-height: 1.5;
+    color: var(--cloud);fotter {
+
 }
