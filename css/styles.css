@@ -88,7 +88,7 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--back-color);
-    background-color: var(--primary-barnd-color);
+    background-color: var(--primary-brand-color);
     cursor: pointer;
 }    
 .search-btn:hover,
@@ -124,22 +124,23 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-..sections-our-team {
+.sections-our-team {
     background-color: #ffffff;
 }
 .our-team {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.20;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--dark-color);
     background-color: var(--back-color);
 }
 .our-names {
     font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -161,18 +162,18 @@ body {
     color: var(--text-color);
 }
 .footer {
-    background-color: var(--cloud);
+    background-color: var(--dark-color);
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--primary-brand-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
 }
 .span-logo {
     color: var(--cloud);
