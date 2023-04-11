@@ -14,7 +14,7 @@
 .link {
     text-decoration: none;
 }
-body {
+.body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
@@ -185,6 +185,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--cloud);
 }
+.link {
+    text-decoration: none;
+}
+.body {
+    font-family: "Roboto", sans-serif;
+}
 .gallery-search-btn {
     font-weight: 500;
     font-size: 16px;
@@ -202,17 +208,23 @@ body {
   color: var(--back-color); 
   background-color: var(--primary-dark-color);
 }
+.cards-list {
+    list-style: none;
+}
+.card-link {
+    text-decoration: none;
+}
 .card-content {
     font-weight: 500;
     font-size: 20px;
-    line-height: 0.83;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
 .card-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.67;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
