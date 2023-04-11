@@ -97,7 +97,7 @@ body {
 .search-btn:focus {
     background: var(--primary-dark-color);
 }  
- /=============/Hero page ====/
+ 
 .title-name {
     font-weight: 500;
     font-size: 20px;
@@ -133,7 +133,7 @@ body {
     text-transform: capitalize;
     color: var(--dark-color);
 }
-.our-names {
+.our-item {
     background-color: #ffffff;
 }
 .our-page {
@@ -171,7 +171,7 @@ body {
     color: var(--primary-brand-color);
 }
 .span-logo {
-    color: var(--cloud);
+    color: #f4f4fd;
 }         
 .footer-text {
     font-weight: 400;
