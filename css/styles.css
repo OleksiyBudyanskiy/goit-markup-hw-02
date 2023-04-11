@@ -1,7 +1,7 @@
 :root {
     --text-color: #434455;
     --dark-color: #2e2f42;
-    --primary-barnd-color: #4d5ae5;
+    --primary-brand-color: #4d5ae5;
     --primary-dark-color: #404BBF;
     --cloud: #f4f4fd;
     --back-color: #ffffff;
@@ -19,11 +19,7 @@ body {
     color: #434455;
     background-color: #ffffff;
     font-style: normal;
-  
-       
-    
 }    
-
 .navs-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -33,7 +29,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark-color);
+    color: var(--primary-brand-color);
 }
 .span-logo {
     font-family: 'Raleway';
@@ -68,7 +64,6 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--text-color);
-
 }
 .contacts:hover,
 .contacts:focus {
@@ -106,7 +101,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: var(--dark-color); 
 }
 .policy-list {
     font-weight: 500;
@@ -139,9 +134,17 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--dark-color);
+    background-color: var(--back-color);
 }
 .our-names {
-    background-color: var(--back-color);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--dark-color);
+    background-color: #ffffff;
 }
 .our-item {
     font-weight: 500;
@@ -157,8 +160,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-.futter {
-    background-color: #f4f4fd;
+.footer {
+    background-color: var(--cloud);
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -169,7 +172,7 @@ body {
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--primary-barnd-color);
+        color: var(--primary-brand-color);
 }
 .span-logo {
     color: var(--cloud);
@@ -189,7 +192,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: var(--primary-barnd-color);
+    color: var(--primary-brand-color);
 }
 .gallery-search-btn:hover,
 .gallery-search-btn:focus {
