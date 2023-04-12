@@ -120,6 +120,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--dark-color)
 }
 .sections-our-team {
     background-color: #f4f4fd;
