@@ -180,12 +180,44 @@ body {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-  /*.link {
-    text-decoration: none;
+.nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
 }
-.body {
-    font-family: "Roboto", sans-serif;
+.nav-span-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 0.86;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-color);
+
+}
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: var(--text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--primary-dark-color);
 }
 .gallery-search-btn {
     font-weight: 500;
@@ -203,6 +235,22 @@ body {
 .gallery-search-btn:focus {
   color: var(--back-color); 
   background-color: var(--primary-dark-color);
+}
+.gallery-content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+.gallery-type {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 .card-list {
     list-style: none;
